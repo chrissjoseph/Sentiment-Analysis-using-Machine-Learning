@@ -87,32 +87,6 @@ Sentiment Prediction
 Performance Evaluation
 ```
 
-## Installation
-
-### Clone the Repository
-
-```bash
-git clone https://github.com/chrissjoseph/nlp-sentiment-analysis.git
-```
-
-### Navigate to the Project Folder
-
-```bash
-cd nlp-sentiment-analysis
-```
-
-### Install Required Libraries
-
-```bash
-pip install -r requirements.txt
-```
-
-### Run the Notebook
-
-Open the notebook in **Google Colab** or **Jupyter Notebook** and execute all cells.
-
----
-
 ## Sample Prediction
 
 ### Input
