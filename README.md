@@ -50,8 +50,6 @@ The system preprocesses textual data, converts it into numerical features using 
 
 ## Dataset
 
-## Dataset
-
 **Dataset Name:** IMDb Movie Review Dataset
 
 The dataset is provided by TensorFlow Keras and contains movie reviews labeled as Positive or Negative.
@@ -94,7 +92,7 @@ Performance Evaluation
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/nlp-sentiment-analysis.git
+git clone https://github.com/chrissjoseph/nlp-sentiment-analysis.git
 ```
 
 ### Navigate to the Project Folder
@@ -141,7 +139,35 @@ The movie was boring and a complete waste of time.
 Negative
 ```
 
----
+## Results
+
+The following outputs were generated after training and evaluating the Logistic Regression model on the IMDb Movie Review Dataset.
+
+### Model Accuracy
+
+![Model Accuracy](Results/accuracy.png)
+
+
+
+### Classification Report
+
+![Classification Report](Results/classification_report.png)
+
+
+
+### Confusion Matrix
+
+![Confusion Matrix](Results/confusion_matrix.png)
+
+
+
+### Sample Prediction Output
+
+![Prediction Output](Results/Output/output.png)
+
+
+
+The model successfully classifies IMDb movie reviews into **Positive** and **Negative** sentiments using **TF-IDF Vectorization** and **Logistic Regression**. The results include the model accuracy, detailed classification metrics, confusion matrix, and sample prediction output.
 
 ## Performance Evaluation
 
@@ -154,7 +180,6 @@ The trained model is evaluated using:
 
 The project achieves good sentiment classification performance using TF-IDF feature extraction and Logistic Regression.
 
----
 
 ## Advantages
 
@@ -165,16 +190,12 @@ The project achieves good sentiment classification performance using TF-IDF feat
 - Suitable for customer feedback analysis.
 - Can be extended for real-world business applications.
 
----
-
 ## Limitations
 
 - Limited to binary sentiment classification.
 - May not correctly interpret sarcasm or irony.
 - Performance depends on dataset quality.
 - Domain-specific language may reduce prediction accuracy.
-
----
 
 ## Applications
 
@@ -185,8 +206,6 @@ The project achieves good sentiment classification performance using TF-IDF feat
 - Market research
 - Opinion mining
 
----
-
 ## Future Enhancements
 
 - Multiclass sentiment classification (Positive, Negative, Neutral)
@@ -196,34 +215,9 @@ The project achieves good sentiment classification performance using TF-IDF feat
 - Real-time social media sentiment monitoring
 - Web application deployment using Flask or Streamlit
 
----
-
-## Results
-
-The system successfully classifies movie reviews into their corresponding sentiment categories using Machine Learning and Natural Language Processing techniques.
-
----
-
-## References
-
-- TensorFlow Documentation
-- Scikit-learn Documentation
-- NLTK Documentation
-- IMDb Movie Review Dataset
-- Research papers on Sentiment Analysis and Natural Language Processing
-
----
 
 ## License
 
 This project is licensed under the **MIT License**.
 
----
 
-## Author
-
-**Your Name**
-
-B.Tech in Electronics and Communication Engineering
-
-Academic Project
