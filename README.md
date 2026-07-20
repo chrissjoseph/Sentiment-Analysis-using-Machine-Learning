@@ -50,12 +50,13 @@ The system preprocesses textual data, converts it into numerical features using 
 
 ## Dataset
 
-This project uses the **IMDb Movie Review Dataset** provided by TensorFlow.
+## Dataset
 
-Dataset Source:
-https://www.tensorflow.org/api_docs/python/tf/keras/datasets/imdb
+**Dataset Name:** IMDb Movie Review Dataset
 
-The dataset is downloaded automatically when the notebook is executed.
+The dataset is provided by TensorFlow Keras and contains movie reviews labeled as Positive or Negative.
+
+For this project, a reduced dataset containing **10,000 reviews** is included in the repository.
 
 
 ## Project Workflow
