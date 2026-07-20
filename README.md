@@ -58,6 +58,12 @@ The dataset is provided by TensorFlow Keras and contains movie reviews labeled a
 
 For this project, a reduced dataset containing **10,000 reviews** is included in the repository.
 
+**Location:**
+
+```
+Dataset/
+└── IMDb_Movie_Review_Dataset.csv
+```
 
 ## Project Workflow
 
